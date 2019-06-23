@@ -10,6 +10,29 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+.survey-text {
+  text-align: left;
+}
+
+.survey-slider-container {
+  text-align: center;
+  display: flex;
+}
+
+.survey-label {
+  flex: 0.5;
+  align-self: center;
+}
+
+input.survey-slider{
+  background-color: white;
+  flex: 3;
+  margin: 30px;
+}
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;

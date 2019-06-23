@@ -21,7 +21,7 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.min.css" rel="stylesheet">
+  <link href="css/creative.css" rel="stylesheet">
 
 </head>
 
@@ -60,9 +60,69 @@
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">Join the conversation: <br> Transit in DC Group Signup </h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Click below to join a personalized group of thinkers and activists committed to learning more about differing opinions on DC transit.</p>
+          <p class="text-white-50 mb-4">Our survey will help you find a group you'll feel comfortable exploring new opinions in.</p>
         </div>
       </div>
+
+      <div id="survey">
+        <h3 class="survey-text">DC Transit Specific Questions </h3>
+      
+
+      <form>
+
+        <div>
+          <p>How often do you personally use transit?</p>
+          <div class="survey-slider-container">
+          <span class="survey-label">Never</span>
+           <input class="survey-slider" type="range" name="points" min="0" max="5">
+           <span class="survey-label">All the time</span>
+          </div>
+        </div>
+
+        <br>
+        <div>
+          <p>How far do you live from work?</p>
+          <div class="survey-slider-container">
+            <span class="survey-label">0 (Work from home)</span>
+          <input class="survey-slider" type="range" name="points" min="0" max="5">
+           <span class="survey-label">15+ Miles</span>
+          </div>
+        </div>
+
+        <br>
+        <div>
+          <p>Do you own a bike?</p>
+          <input type="radio" name="bike" value="yes"> Yes<br>
+          <input type="radio" name="bike" value="no"> No
+          </div>
+        </div>
+
+        <br>
+        <div id="survey">
+          <h3 class="survey-text">Personality Specific Questions </h3>
+        </div>
+
+
+          <div>
+            <p>Are you likely to start a debate?</p>
+            <input type="radio" name="debate" value="yes"> Yes<br>
+            <input type="radio" name="debate" value="no"> No
+          </div>
+
+          <br>
+          <div>
+            <p>Do you tend to dominate a conversation?</p>
+            <input type="radio" name="convo" value="yes"> Yes<br>
+            <input type="radio" name="convo" value="no"> No
+          </div>
+          <br>
+          <input type="submit">
+
+          </div>
+
+      </form>
+
+    </div>
     </div>
   </section>
 
